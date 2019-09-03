@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-// void main() => runApp(MyProfile());
-
 class MyProfile extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
@@ -18,7 +16,9 @@ class MyProfile extends StatelessWidget {
             children: <Widget>[
               CircleAvatar(
                 radius: 48.0,
-                backgroundImage: AssetImage('images/profile_pic.jpg'),
+                backgroundImage: AssetImage(
+                  'images/background_pic.jpg',
+                ),
               ),
               Center(
                 child: Text(

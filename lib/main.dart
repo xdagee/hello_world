@@ -29,6 +29,7 @@ class MyBusiness extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
+                          Padding(padding: EdgeInsets.all(16.0),),
                           ListTile(
                             title: Text(
                               'Where beating becomes fun!',
@@ -41,7 +42,7 @@ class MyBusiness extends StatelessWidget {
                             subtitle: Text(
                               'Roman Reigns',
                               style: TextStyle(
-                                fontSize: 16.0,
+                                fontSize: 18.0,
                                 fontWeight: FontWeight.bold,
                                 fontFamily: 'Source Sans Pro',
                               ),
@@ -139,9 +140,10 @@ class MyBusiness extends StatelessWidget {
               Expanded(
                 flex: 2,
                 child: Padding(
-                  padding: const EdgeInsets.all(16.0),
+                  padding: const EdgeInsets.all(24.0),
                   child: Text(
-                      'An Android emulator enables you to run the Android OS virtually on your PC (it works for both MacOS, Linux and Windows). It is very useful when you want to test your app on different versions of the Android OS and when you don’t have a physical device to test your apps.'),
+                      'If you want to enhance an existing process or belief, continuous improvement is a great option. If you want to learn how to think for yourself, reasoning from first principles is one of the best ways to do it.',
+                      style: TextStyle(fontFamily: 'Source Sans Pro', fontSize: 16.0,),),
                 ),
               ),
             ],
