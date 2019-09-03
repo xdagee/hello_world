@@ -29,23 +29,22 @@ class MyBusiness extends StatelessWidget {
                       child: Column(
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
-                          Padding(
-                            padding: const EdgeInsets.all(16.0),
-                            child: Text(
+                          ListTile(
+                            title: Text(
                               'Where beating becomes fun!',
+                              style: TextStyle(
+                                fontSize: 20.0,
+                                fontWeight: FontWeight.bold,
+                                fontFamily: 'Source Sans Pro',
+                              ),
+                            ),
+                            subtitle: Text(
+                              'Roman Reigns',
                               style: TextStyle(
                                 fontSize: 16.0,
                                 fontWeight: FontWeight.bold,
                                 fontFamily: 'Source Sans Pro',
                               ),
-                            ),
-                          ),
-                          Text(
-                            'Roman Reigns',
-                            style: TextStyle(
-                              fontSize: 20.0,
-                              fontWeight: FontWeight.bold,
-                              fontFamily: 'Source Sans Pro',
                             ),
                           ),
                         ],
@@ -83,7 +82,9 @@ class MyBusiness extends StatelessWidget {
                             Icons.call,
                             color: Colors.blue,
                           ),
-                          SizedBox(height: 8.0,),
+                          SizedBox(
+                            height: 8.0,
+                          ),
                           Text(
                             'CALL',
                             style: TextStyle(
@@ -98,10 +99,12 @@ class MyBusiness extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.center,
                         children: <Widget>[
                           Icon(
-                            Icons.router,
+                            Icons.near_me,
                             color: Colors.blue,
                           ),
-                          SizedBox(height: 8.0,),
+                          SizedBox(
+                            height: 8.0,
+                          ),
                           Text(
                             'ROUTE',
                             style: TextStyle(
@@ -119,7 +122,9 @@ class MyBusiness extends StatelessWidget {
                           Icons.share,
                           color: Colors.blue,
                         ),
-                        SizedBox(height: 8.0,),
+                        SizedBox(
+                          height: 8.0,
+                        ),
                         Text(
                           'SHARE',
                           style: TextStyle(
